@@ -1,0 +1,18 @@
+.replies {
+  border-left: 2px solid hsl(228deg 13% 70% / 18%);
+  margin-left: 3rem;
+}
+
+.reply {
+  margin-left: 1rem;
+}
+
+@media (max-width: 600px) {
+  .reply {
+    margin-left: 0;
+  }
+
+  .replies {
+    margin-left: 1rem;
+  }
+}

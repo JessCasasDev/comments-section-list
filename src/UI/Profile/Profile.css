@@ -1,0 +1,35 @@
+img {
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  font-weight: 600;
+  color: hsl(212, 24%, 26%);
+  margin: 0 0.5rem;
+}
+
+.date {
+  font-weight: 400;
+  color: hsl(211, 10%, 45%);
+}
+
+.ownName {
+  color: hsl(0, 0%, 100%);
+  background: hsl(238, 40%, 52%);
+  padding: 0.1rem 0.4rem;
+  margin: 0 0.5rem 0 0;
+}
+
+@media (max-width: 600px) {
+  img {
+    width: 2rem;
+    height: 2rem;
+  }
+}

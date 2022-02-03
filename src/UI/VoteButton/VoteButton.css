@@ -1,0 +1,36 @@
+.vote {
+  background: hsl(223, 19%, 93%);
+  min-width: 1.5rem;
+  max-width: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  margin: 0 1rem;
+}
+
+.vote__button {
+  color: hsl(211deg 10% 45% / 42%);
+  display: flex;
+}
+
+.vote__score {
+  margin: 0.5rem 0;
+  color: hsl(238, 40%, 52%);
+  font-weight: bold;
+}
+@media (max-width: 600px) {
+  .vote {
+    flex-direction: row;
+    min-width: 5rem;
+    padding: 0.2rem 0.5rem;
+    max-width: 5rem;
+  }
+
+  .button__container {
+    bottom: 25px;
+  }
+}

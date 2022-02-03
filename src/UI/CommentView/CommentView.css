@@ -1,0 +1,36 @@
+.content {
+  color: hsl(211, 10%, 45%);
+  line-height: 1.3rem;
+  padding: 0.5rem 0;
+}
+
+.content span {
+  color: hsl(238, 40%, 52%);
+  font-weight: bold;
+}
+section {
+  background: hsl(0, 0%, 100%);
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  margin: 1rem;
+  display: flex;
+  position: relative;
+}
+
+.button__container {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  section {
+    flex-direction: column-reverse;
+  }
+
+  .button__container {
+    bottom: 25px;
+    top: initial;
+  }
+}

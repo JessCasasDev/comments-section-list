@@ -1,0 +1,9 @@
+.custom_button {
+  height: fit-content;
+  width: 8rem;
+  background: hsl(238, 40%, 52%);
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+}
